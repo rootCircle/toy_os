@@ -28,4 +28,3 @@ use blog_os::println;
 fn test_println() {
     println!("test_println output");
 }
-

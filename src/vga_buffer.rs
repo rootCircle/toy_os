@@ -145,7 +145,6 @@ lazy_static! {
     });
 }
 
-
 #[test_case]
 fn test_println_simple() {
     println!("test_println_simple output");
@@ -167,5 +166,3 @@ fn test_println_output() {
         assert_eq!(char::from(screen_char.ascii_character), c);
     }
 }
-
-
